@@ -20,7 +20,7 @@ class TextToSpeechTransform {
         
         
         textToSpeech
-        .synthesize(params)
+        .synthesize(params) 
         .then(response => {
           const audio = response.result;
           return textToSpeech.repairWavHeaderStream(audio);

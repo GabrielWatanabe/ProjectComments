@@ -6,7 +6,7 @@ class CommentController {
         console.log(req.body)
         const text = await Comment.create(req.body);
         const audio = TextToSpeech.create(req.body);
-        return res.json(text, audio);
+        return res.json(text);
     }
 
     async index(req, res) {
