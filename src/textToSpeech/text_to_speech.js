@@ -5,7 +5,6 @@ const watsonCredentials = require('../../watson-nlu.json').apikey;
 
 class TextToSpeechTransform {
      create(req) {
-         console.log(req)
         const textToSpeech = new TextToSpeechV1({
             version: '2019-07-12',
             authenticator: new IamAuthenticator({ apikey: 'KY55_SKr9o4jl4hpzQOaUnUCVOKqIoi3NyFEaaHyoFYc' }),

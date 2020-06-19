@@ -1,6 +1,6 @@
 module.exports = {
   "username": "root",
-  "password": '$d3-357J123',
+  "password": '123456',
   "database": "smarkio_comments",
   "host": "localhost",
   "dialect": "mysql",
