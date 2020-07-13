@@ -1,5 +1,3 @@
-***Nao foi possível fazer a entrega com audio dentro de cada botão, porém ele salva na raiz do projeto os mesmos caso queira consulta-los.
-
 Ao baixar o projeto do GIT vão existir duas partes, front-end e back-end.
 
 Back-end:
