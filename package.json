@@ -11,7 +11,7 @@
     "express": "^4.17.1",
     "ibm-watson": "^12.2.0",
     "mysql2": "^2.1.0",
-    "sequelize": "^5.21.13",
+    "sequelize": "^6.37.8",
     "watson-developer-cloud": "^4.0.1"
   },
   "devDependencies": {
